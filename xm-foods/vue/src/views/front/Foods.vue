@@ -14,7 +14,7 @@
           <div style="cursor: pointer; margin-bottom: 10px" @click="goDetail('/front/foodDetail?id=' + item.id)">
             <img :src="item.cover" alt="" style="width: 100%; height: 150px; border-radius: 5px 5px 0 0">
             <div style="margin: 5px 0; font-size: 16px" class="line1">{{ item.name }}</div>
-            <div style="color: #666">By. {{ item.userName }}</div>
+<!--            <div style="color: #666">By. {{ item.userName }}</div>-->
           </div>
         </el-col>
       </el-row>
